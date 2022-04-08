@@ -6,7 +6,7 @@
  * Description: Print numbers 0 to 9 on one line
  * Return: 0
  */
-init main(void)
+int main(void)
 {
 int i;
 
