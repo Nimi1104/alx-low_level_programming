@@ -2,15 +2,17 @@
 /**
  * main - entry point
  *
- * Description: Print the lowercase alphabeth
- * Return: 0
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
-{
-int c;
 
-for (c = 0; c < 26; ++c)
-putchar(('a' + c);
+{
+char alphabeth;
+
+for (alphabeth ='a'; alphabeth <= 'z'; alphabeth++c)
+{
+putchar(alphabeth);
+}
 
 putchar('\n');
 
