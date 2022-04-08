@@ -8,14 +8,18 @@
  */
 int main(void)
 {
-char x;
+char base_16;
 
-for (x = '0'; x <= '9'; ++x)
-putchar(x);
-for (x = 'a'; x <= 'f'; ++x)
-putchar(x);
+for (base_16 = 48; base_16 <= 57; base_16++)
+{putchar(base_16 );
+}
+
+for (base_16 = 97 ; <= 102; base_16++)
+{
+putchar(base_16);
+}
 
 putchar('\n');
 
-return (00;
+return (0);
 }
