@@ -1,12 +1,9 @@
 #include "main.h"
-
-
 /**
- * main - Entry point
- *
- * Return: nothing, return void
+ *main - main block
+ *Description:print -putchar in a new line
+ *Return:this program returns zero
  */
-
 int main(void)
 {
 _putchar('_');
@@ -18,7 +15,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-
 return (0);
 } 
 
