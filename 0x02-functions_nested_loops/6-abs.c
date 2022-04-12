@@ -1,5 +1,5 @@
 #include "main.h"
-rm
+
 /**
  * _abs - return abs value
  * @n : number to check
